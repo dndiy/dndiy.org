@@ -27,13 +27,11 @@
 	margin:0;
 	padding:0 3px 10px 3px;
 	color:#FFFFFF;
-	background-color:#232323;
-	border-bottom:1px solid #232323;
+	border-bottom:1px solid #444444;
 	}
 
 #header li a:hover, #header li.active a{
 	color:#cd0000;
-	background-color:#232323;
 	border-bottom-color:#cd0000;
 	}
 
