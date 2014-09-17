@@ -39,6 +39,25 @@
 
 <div class="wrapper">
   <div id="container" class="clear">
+   <div id="map" style="width: 900px; height: 600px"></div>
+
+    <script src="leaflet-0.7.3/leaflet.js"></script>
+    <script>
+
+    var map = L.map('map').setView([51.505, -0.09], 13);
+
+    L.tileLayer('images/background.jpg', {
+      maxZoom: 18,
+    }).addTo(map);
+
+
+  </script> 
+ </div>
+</div>
+
+
+<div class="wrapper">
+  <div id="container" class="clear">
      <div class="article">
         <div class="figcaption">    
           <a href="tools.html"><img class="imgr" src="images/gallery/tool.jpg" alt="" width="720" height="30" />
