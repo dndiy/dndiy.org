@@ -792,6 +792,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 	/* W3C Markup, IE10 Release Preview */ 
 	background-image: linear-gradient(to bottom, #000000 0%, #131313 100%);
 	border-top:1px dotted #666666;
+    border:1px solid #333333;
+
 
 	}
 
